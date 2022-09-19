@@ -2,6 +2,10 @@ body {
   background-color: #343a40;
 }
 
+.card {
+  border-radius: 0;
+}
+
 a {
   color: #fff;
 }
@@ -57,8 +61,3 @@ footer {
   background-color: #343a40;
   text-align: center;
 }
-
-.card {
-  border-radius: 0;
-}
-
