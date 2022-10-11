@@ -1,8 +1,7 @@
 $(function() {
-  $('#page-top').click(function() {
-    var href = $(this).attr('href');
-    var target = $(href == '#' || href == '' ? 'html' : href);
-    var position = target.offset().top;
+  $('#page-top a').click(function(e) {
+    e.preventDefault();
+    var position = 0;
     var speed = 500;
     $('html, body').animate({
       scrollTop: position,
